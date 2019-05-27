@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWindowsService", "MyWindowsService\MyWindowsService.csproj", "{D8E87CC6-9B2C-4CF6-B1AE-9CA3E63E9826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceClient", "WindowsServiceClient\WindowsServiceClient.csproj", "{26380A91-F36A-4D55-A28E-BBF98F841FE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E87CC6-9B2C-4CF6-B1AE-9CA3E63E9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E87CC6-9B2C-4CF6-B1AE-9CA3E63E9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E87CC6-9B2C-4CF6-B1AE-9CA3E63E9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E87CC6-9B2C-4CF6-B1AE-9CA3E63E9826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26380A91-F36A-4D55-A28E-BBF98F841FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26380A91-F36A-4D55-A28E-BBF98F841FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26380A91-F36A-4D55-A28E-BBF98F841FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26380A91-F36A-4D55-A28E-BBF98F841FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {611AC24D-D45B-4685-8FF6-B17A4307FEAB}
+	EndGlobalSection
+EndGlobal
